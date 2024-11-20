@@ -1,0 +1,35 @@
+clean webpage design
+
+grey gradient color palette with bright accents
+
+2 inputs = one for download speed and one for file size
+
+first input can be megabit or megabytes
+
+
+
+first calculate how many MB (megabytes) per second you can download with your current connection speed.
+
+35 megabit per second is 35,000,000 bits
+
+8 bits is a byte so
+
+35,000,000 / 8 = 4,375,000 bytes
+
+Each kilobytes is 1024 bytes so,
+
+4,375,000 bytes / 1024 = 4,272 kilobytes
+
+each megabyte is 1024 kilobytes so,
+
+4,272 / 1024 = 4.17 MB (megabytes) per sec.
+
+60GB is 60 x 1024 MB so = 61,440 MB
+
+if you can download 4.17MB per second 61,440 MB will take:
+
+61,440 / 4.17 = 14,734 seconds
+
+that is 14,734 / 60 = 245.5 minutes or
+
+245.5 / 60 = 4.09 hours or 4 hours and 6 minutes

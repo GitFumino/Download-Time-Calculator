@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Time Calculator</title>
+  <link rel="stylesheet" href="/styles/download-calculator.css">
+</head>
+<body>
+  <h1>Download Time Calculator</h1>
+  <div class="container">
+    <div class="display">
+      <p>File Size</p>
+      <div><input type="text" id="size">GB</div>
+    </div>
+    <div class="display">
+      <p>Download Speed</p>
+      <div><input type="text" id="speed">Mbps</div>
+    </div>
+    <div class="display">
+      <button onclick="downloadTime()">Calculate</button>
+      <button onclick="clearText();">Clear</button>
+    </div>
+    <div class="result js-result" id="time"></div>
+  </div>
+
+  <script src="/scripts/download-calculator.js"></script>
+</body>
+</html>
